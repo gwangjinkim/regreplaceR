@@ -1,0 +1,33 @@
+---
+title: "Introduction to the Replacer Class"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{regreplace Package Vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Overview
+The Replacer class in the regreplace package provides utilities for 
+regex operations, such as matching and replacing named groups.
+# Example Usage
+```{r}
+library(regreplace)
+
+# Create a Replacer object with a regex pattern
+r <- Replacer$new(pattern="(?P<name>\\w+) is (?P<age>\\d+)")
+
+# Match the "name" group in the string
+name_match <- r$match("Jane is 25", "name")
+print(name_match)  # Should print "Jane"
+
+# Match the "age" group in the string
+age_match <- r$match("Jane is 25", "age")
+print(age_match)  # Should print "25"
+
+# Replace the "name" group in the string
+replaced_string <- r$replace("Jane is 25", "name", "John")
+print(replaced_string)  # Should print "John is 25"
