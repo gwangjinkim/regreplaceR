@@ -1,4 +1,4 @@
-library(R6)
+# library(R6)
 
 #' Extract Named Groups from a String Using a Regex Pattern
 #'

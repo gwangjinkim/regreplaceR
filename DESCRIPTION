@@ -8,6 +8,7 @@ Authors@R:
            email =  "gwang.jin.kim.phd@gmail.com", 
            role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-2753-0883"))
+Author: Gwang-Jin Kim [aut, cre] (ORCID: <https://orcid.org/0000-0002-2753-0883>) 
 Description: Provides functions to match and replace strings based on named groups in regular expressions.
 Suggests: rmarkdown, knitr
 VignetteBuilder: knitr

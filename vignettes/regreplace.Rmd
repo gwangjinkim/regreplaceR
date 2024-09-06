@@ -31,3 +31,4 @@ print(age_match)  # Should print "25"
 # Replace the "name" group in the string
 replaced_string <- r$replace("Jane is 25", "name", "John")
 print(replaced_string)  # Should print "John is 25"
+```
