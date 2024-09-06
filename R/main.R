@@ -96,6 +96,8 @@ replace_group <- function(pattern, s, group_name, replacer, ignore.case=F) {
 #' This class provides methods to match and replace parts of a string based on
 #' named groups in regular expressions.
 #'
+#' @importFrom R6 R6Class
+#'
 #' @field re A compiled regular expression pattern.
 #'
 #' @examples
