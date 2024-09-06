@@ -19,7 +19,7 @@ If no matches are found, an empty list is returned.
 }
 \description{
 This function extracts named groups from a given string using the specified regex pattern.
-Named groups in the pattern are denoted using `(?P<group_name>...)` syntax.
+Named groups in the pattern are denoted using \verb{(?P<group_name>...)} syntax.
 }
 \examples{
 pattern <- "(?P<name>\\\\w+) is (?P<age>\\\\d+)"

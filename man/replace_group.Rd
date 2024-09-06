@@ -18,7 +18,7 @@ replace_group(pattern, s, group_name, replacer, ignore.case = F)
 \item{ignore.case}{Logical. If TRUE, the pattern matching is case-insensitive. Default is FALSE.}
 }
 \value{
-A modified string where the matched value of the specified group has been replaced by the `replacer`.
+A modified string where the matched value of the specified group has been replaced by the \code{replacer}.
 }
 \description{
 This function replaces the value of a specific named group in a string using the provided regex pattern.

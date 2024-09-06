@@ -1,0 +1,135 @@
+* using log directory ‘/Users/josephus/Downloads/regreplace/..Rcheck’
+* using R version 4.4.1 (2024-06-14)
+* using platform: aarch64-apple-darwin20
+* R was compiled by
+    Apple clang version 14.0.0 (clang-1400.0.29.202)
+    GNU Fortran (GCC) 12.2.0
+* running under: macOS Sonoma 14.5
+* using session charset: UTF-8
+* using option ‘--as-cran’
+* checking for file ‘./DESCRIPTION’ ... OK
+* this is package ‘regreplace’ version ‘0.1.0’
+* package encoding: UTF-8
+* checking CRAN incoming feasibility ... NOTE
+Maintainer: ‘Gwang-Jin Kim <gwang.jin.kim.phd@gmail.com>’
+
+New submission
+
+Unknown, possibly misspelled, fields in DESCRIPTION:
+  ‘Dependencies’
+
+Package has a VignetteBuilder field but no prebuilt vignette index.
+
+The build time stamp is missing.
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... NOTE
+Found the following hidden files and directories:
+  .gitignore
+  ..Rcheck
+  .git
+These were most likely included in error. See section ‘Package
+structure’ in the ‘Writing R Extensions’ manual.
+
+CRAN-pack does not know about
+  ..Rcheck
+  .git
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking serialization versions ... OK
+* checking whether package ‘regreplace’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking for future file timestamps ... OK
+* checking DESCRIPTION meta-information ... NOTE
+Author field differs from that derived from Authors@R
+  Author:    ‘Gwang-Jin Kim <gwang.jin.kim.phd@gmail.com>’
+  Authors@R: ‘Gwang-Jin Kim [aut, cre] (<https://orcid.org/0000-0002-2753-0883>)’
+
+Checking should be performed on sources prepared by ‘R CMD build’.
+* checking top-level files ... NOTE
+Non-standard files/directories found at top level:
+  ‘CRAN-SUBMISSION’ ‘Meta’ ‘cran-comments.md’ ‘doc’
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... WARNING
+Found the following directory with the name of a check directory:
+  ./..Rcheck
+Most likely, these were included erroneously.
+Found the following directory with the name of a version control directory:
+  ./.git
+These should not be in a package tarball.
+* checking code files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking use of S3 registration ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd line widths ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking files in ‘vignettes’ ... WARNING
+Files in the 'vignettes' directory but no files in 'inst/doc':
+  ‘regreplace.Rmd’
+* checking examples ... OK
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes ... WARNING
+Directory 'inst/doc' does not exist.
+Package vignette without corresponding single PDF/HTML:
+  ‘regreplace.Rmd’
+* checking re-building of vignette outputs ... OK
+* checking PDF version of manual ... OK
+* checking HTML version of manual ... NOTE
+Found the following HTML validation problems:
+Replacer.html:15:44 (Replacer.Rd:5): Error: <main> is not recognized!
+Replacer.html:15:44 (Replacer.Rd:5): Warning: discarding unexpected <main>
+Replacer.html:283:1 (Replacer.Rd:42): Warning: discarding unexpected </main>
+Replacer.html:4:1 (Replacer.Rd:5): Warning: <link> inserting "type" attribute
+Replacer.html:12:1 (Replacer.Rd:5): Warning: <script> proprietary attribute "onload"
+Replacer.html:12:1 (Replacer.Rd:5): Warning: <script> inserting "type" attribute
+Replacer.html:17:1 (Replacer.Rd:5): Warning: <table> lacks "summary" attribute
+groups.html:15:44 (groups.Rd:5): Error: <main> is not recognized!
+groups.html:15:44 (groups.Rd:5): Warning: discarding unexpected <main>
+groups.html:71:1 (groups.Rd:32): Warning: discarding unexpected </main>
+groups.html:4:1 (groups.Rd:5): Warning: <link> inserting "type" attribute
+groups.html:12:1 (groups.Rd:5): Warning: <script> proprietary attribute "onload"
+groups.html:12:1 (groups.Rd:5): Warning: <script> inserting "type" attribute
+groups.html:17:1 (groups.Rd:5): Warning: <table> lacks "summary" attribute
+groups.html:36:1 (groups.Rd:10): Warning: <table> lacks "summary" attribute
+match_group.html:15:44 (match_group.Rd:5): Error: <main> is not recognized!
+match_group.html:15:44 (match_group.Rd:5): Warning: discarding unexpected <main>
+match_group.html:70:1 (match_group.Rd:29): Warning: discarding unexpected </main>
+match_group.html:4:1 (match_group.Rd:5): Warning: <link> inserting "type" attribute
+match_group.html:12:1 (match_group.Rd:5): Warning: <script> proprietary attribute "onload"
+match_group.html:12:1 (match_group.Rd:5): Warning: <script> inserting "type" attribute
+match_group.html:17:1 (match_group.Rd:5): Warning: <table> lacks "summary" attribute
+match_group.html:35:1 (match_group.Rd:10): Warning: <table> lacks "summary" attribute
+replace_group.html:15:44 (replace_group.Rd:5): Error: <main> is not recognized!
+replace_group.html:15:44 (replace_group.Rd:5): Warning: discarding unexpected <main>
+replace_group.html:74:1 (replace_group.Rd:31): Warning: discarding unexpected </main>
+replace_group.html:4:1 (replace_group.Rd:5): Warning: <link> inserting "type" attribute
+replace_group.html:12:1 (replace_group.Rd:5): Warning: <script> proprietary attribute "onload"
+replace_group.html:12:1 (replace_group.Rd:5): Warning: <script> inserting "type" attribute
+replace_group.html:17:1 (replace_group.Rd:5): Warning: <table> lacks "summary" attribute
+replace_group.html:35:1 (replace_group.Rd:10): Warning: <table> lacks "summary" attribute
+* checking for non-standard things in the check directory ... OK
+* checking for detritus in the temp directory ... OK
+* DONE
+Status: 3 WARNINGs, 5 NOTEs

@@ -4,7 +4,7 @@
 \alias{Replacer}
 \title{Replacer Class for Regex Operations}
 \description{
-The `Replacer` class encapsulates regex operations using named groups.
+The \code{Replacer} class encapsulates regex operations using named groups.
 It allows matching and replacing based on named groups in a regex pattern.
 }
 \details{
@@ -76,7 +76,7 @@ Create a new Replacer object with a regex pattern.
 \if{html}{\out{</div>}}
 }
 \subsection{Returns}{
-A new `Replacer` object.
+A new \code{Replacer} object.
 }
 \subsection{Examples}{
 \if{html}{\out{<div class="r example copy">}}
@@ -94,7 +94,7 @@ A new `Replacer` object.
 Match a string and extract a group by its name.
 
 This method matches the string using the regex pattern and extracts the value
-of the group specified by `group_name`.
+of the group specified by \code{group_name}.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{Replacer$match(s, group_name)}\if{html}{\out{</div>}}
 }
@@ -109,7 +109,7 @@ of the group specified by `group_name`.
 \if{html}{\out{</div>}}
 }
 \subsection{Returns}{
-The matched value of the group or `NULL` if not found.
+The matched value of the group or \code{NULL} if not found.
 }
 \subsection{Examples}{
 \if{html}{\out{<div class="r example copy">}}
@@ -127,8 +127,8 @@ r$match("file_20230905-123456.txt", "date")
 \subsection{Method \code{replace()}}{
 Replace the value of a matched group with a replacement string.
 
-This method replaces the value of the matched group specified by `group_name`
-with the `replacement` string in the input string `s`.
+This method replaces the value of the matched group specified by \code{group_name}
+with the \code{replacement} string in the input string \code{s}.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{Replacer$replace(s, group_name, replacement)}\if{html}{\out{</div>}}
 }

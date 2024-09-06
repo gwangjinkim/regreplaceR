@@ -5,15 +5,16 @@ Version: 0.1.0
 Date: 2024-09-05
 Authors@R: 
     person(given = "Gwang-Jin", family = "Kim",
-           email =  "gwang.jin.kim.phd@gmail.com", 
-           role = c("aut", "cre"),
+           email =  "gwang.jin.kim.phd@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-2753-0883"))
+Author: Gwang-Jin Kim <gwang.jin.kim.phd@gmail.com>
+Maintainer: Gwang-Jin Kim <gwang.jin.kim.phd@gmail.com>
 Description: Provides functions to match and replace strings based on named groups in regular expressions.
 Suggests: rmarkdown, knitr
 VignetteBuilder: knitr
+Dependencies: R (>= 3.1.0), nlme
 License: MIT + file LICENSE
 Encoding: UTF-8
-Imports:
-    R6
-Roxygen: list(markdown = TRUE)
+Imports: R6
 RoxygenNote: 7.3.2
+Built: R 4.4.1; ; 2024-09-06 03:33:45 UTC; unix
