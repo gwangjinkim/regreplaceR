@@ -1,8 +1,8 @@
 # regregplaceR
 
-This R package provides some regex tools to extract, match, and replace named regex groups in strings. 
-It contains in addition to 3 little functions a `R6` class which allows for easy handling 
-of regex-based string manipulation tasks.
+This R package provides 4 tiny regex tools to extract, match, and replace named regex groups in strings. 
+It contains in addition to 3 functions `groups()`, `match_group()` and `replace_group()` a `R6` class `Replacer` 
+which is the preferred interface of this package.
 
 ## Installation
 
