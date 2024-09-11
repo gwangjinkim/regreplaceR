@@ -2,7 +2,7 @@
 
 This R package provides 4 tiny regex tools to extract, match, and replace named regex groups in strings. 
 It contains in addition to 3 functions `groups()`, `match_group()` and `replace_group()` a `R6` class `Replacer` 
-which is the preferred interface of this package.
+which is thought as the main interface of this package.
 
 ## Installation
 
