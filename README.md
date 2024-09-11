@@ -1,26 +1,32 @@
-# My Regex Package
+# regregplaceR
 
-This R package provides powerful regex tools to extract, match, and replace named groups in strings. It is built using the `R6` class system and allows for easy handling of regex-based string manipulation tasks.
+This R package provides powerful regex tools to extract, match, and replace named groups in strings. 
+It contains in addition to functions a `R6` class which allows for easy handling of regex-based string manipulation tasks.
 
 ## Installation
 
-You can install this package by cloning the repository and installing it via R:
+You can install this package by installing it from CRAN or from this github repository.
 
 ```r
+# install directly from CRAN
+install.packages("regreplaceR")
+
+# or install directly from this github repository
+
 # install the devtools package if not already installed
 install.packages("devtools")
 
 # install the package from the local directory
-devtools::install("path/to/your/package")
+devtools::install("git@github.com:gwangjinkim/regreplaceR.git")
 ```
 
 ## Overview
 
 The package offers three core functions to interact with strings using regular expressions with named groups:
 
-	•	groups(): Extract all named groups from a string.
-	•	match_group(): Extract a specific named group.
-	•	replace_group(): Replace the value of a specific named group.
+- groups(): Extract all named groups from a string.
+- match_group(): Extract a specific named group.
+- replace_group(): Replace the value of a specific named group.
 
 Additionally, it includes an R6 class called Replacer that encapsulates these functionalities for a more 
 object-oriented approach to regex-based operations.
