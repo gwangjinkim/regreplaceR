@@ -4,7 +4,7 @@
 \alias{replace_group}
 \title{Replace a Specific Named Group in a String}
 \usage{
-replace_group(pattern, s, group_name, replacer, ignore.case = F)
+replace_group(pattern, s, group_name, replacer, ignore.case = FALSE)
 }
 \arguments{
 \item{pattern}{A character string containing the regex pattern with named groups.}

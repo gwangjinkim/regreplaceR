@@ -27,14 +27,6 @@ You can install this package by installing it from CRAN or from this github repo
 ```{r}
 # install directly from CRAN
 install.packages("regreplaceR")
-
-# or install directly from this github repository
-
-# install the devtools package if not already installed
-install.packages("devtools")
-
-# install the package directly from this repository
-devtools::install_github("gwangjinkim/regreplaceR")
 ```
 
 ## Overview
@@ -57,6 +49,8 @@ By using an R6 class, I was free to choose the arguments for `match()` and `repl
 This function extracts all named groups from a string based on a provided regex pattern.
 
 ```{r}
+library(regreplaceR)
+
 pattern <- "(?P<name>\\w+) is (?P<age>\\d+)"
 s <- "Jane is 25"
 result <- groups(pattern, s)
@@ -73,7 +67,9 @@ result <- groups(pattern, s)
 
 Extract the value of a specific named group from the string.
 
-```r
+```{r}
+library(regreplaceR)
+
 pattern <- "(?P<name>\\w+) is (?P<age>\\d+)"
 s <- "Jane is 25"
 name <- match_group(pattern, s, "name")
@@ -87,6 +83,8 @@ name <- match_group(pattern, s, "name")
 Replace the value of a specific named group with a new string.
 
 ```{r}
+library(regreplaceR)
+
 pattern <- "(?P<name>\\w+) is (?P<age>\\d+)"
 s <- "Jane is 25"
 modified <- replace_group(pattern, s, "name", "John")
@@ -103,7 +101,7 @@ regex operations, such as matching and replacing named groups.
 ### Example Usage
 
 ```{r}
-require(regreplaceR)
+library(regreplaceR)
 
 # Create a new Replacer object
 r <- Replacer$new(pattern = ".*?_(?P<date>\\d{8}-\\d{6})(?P<ext>\\..+$)")

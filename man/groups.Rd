@@ -4,7 +4,7 @@
 \alias{groups}
 \title{Extract Named Groups from a String Using a Regex Pattern}
 \usage{
-groups(pattern, s, ignore.case = F)
+groups(pattern, s, ignore.case = FALSE)
 }
 \arguments{
 \item{pattern}{A character string containing the regex pattern with named groups.}
