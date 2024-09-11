@@ -18,7 +18,7 @@ install.packages("regreplaceR")
 install.packages("devtools")
 
 # install the package from the local directory
-devtools::install("git@github.com:gwangjinkim/regreplaceR.git")
+devtools::install_github("gwangjinkim/regreplaceR")
 ```
 
 ## Overview
