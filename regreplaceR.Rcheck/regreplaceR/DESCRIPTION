@@ -1,5 +1,6 @@
 Package: regreplaceR
-Title: Match and Replace Strings Based on  Named Groups in Regular Expressions
+Title: Match and Replace Strings Based on Named Groups in Regular
+        Expressions
 Language: en-US
 Version: 0.1.0
 Date: 2024-09-05
@@ -17,7 +18,10 @@ Suggests: rmarkdown, knitr
 VignetteBuilder: knitr
 License: MIT + file LICENSE
 Encoding: UTF-8
-Imports:
-    R6
+Imports: R6
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
+NeedsCompilation: no
+Packaged: 2024-09-11 21:11:10 UTC; josephus
+Maintainer: Gwang-Jin Kim <gwang.jin.kim.phd@gmail.com>
+Built: R 4.3.3; ; 2024-09-11 21:12:20 UTC; unix

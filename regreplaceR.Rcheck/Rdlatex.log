@@ -1,0 +1,599 @@
+Hmm ... looks like a package
+Converting parsed Rd's to LaTeX 
+Creating pdf output from LaTeX ...
+
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(./Rd2.tex
+
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/base/book.c
+ls
+Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
+
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/base/bk10.c
+lo))
+(/Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/share/texmf/tex/l
+atex/Rd.sty
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/base/ifthen
+.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/tools/longt
+able.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/tools/bm.st
+y)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/base/alltt.
+sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/tools/verba
+tim.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/url/url.sty
+)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/base/textco
+mp.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/amsmath/ams
+math.sty
+For additional information on amsmath, use the `?' option.
+
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/amsmath/ams
+text.sty
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/amsmath/ams
+gen.sty))
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/amsmath/ams
+bsy.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/amsmath/ams
+opn.sty))
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/amsfonts/am
+sfonts.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/amsfonts/am
+ssymb.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/jknapltx/ma
+thrsfs.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/iftex/ift
+ex.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/base/fonten
+c.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/psnfss/time
+s.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/inconsolata
+/zi4.sty
+`inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/xkeyval/xke
+yval.sty
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/xkeyval/x
+keyval.tex
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/xkeyval/x
+kvutils.tex
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/xkeyval/k
+eyval.tex)))))
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/graphics/co
+lor.sty
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/graphics-cf
+g/color.cfg)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/graphics-de
+f/pdftex.def)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/graphics/ma
+thcolor.ltx))
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/hyperref/hy
+perref.sty
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/kvsetkeys/k
+vsetkeys.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/kvdefinek
+eys/kvdefinekeys.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/pdfescape
+/pdfescape.sty
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/ltxcmds/l
+txcmds.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/pdftexcmd
+s/pdftexcmds.sty
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/infwarerr
+/infwarerr.sty)))
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/hycolor/hyc
+olor.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/auxhook/aux
+hook.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/hyperref/na
+meref.sty
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/refcount/re
+fcount.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/gettitles
+tring/gettitlestring.sty
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/kvoptions/k
+voptions.sty)))
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/etoolbox/et
+oolbox.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/hyperref/pd
+1enc.def)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/intcalc/i
+ntcalc.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/hyperref/pu
+enc.def)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/bitset/bi
+tset.sty
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/bigintcal
+c/bigintcalc.sty))
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/base/atbegs
+hi-ltx.sty))
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/hyperref/hp
+dftex.def
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/base/atvery
+end-ltx.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/rerunfilech
+eck/rerunfilecheck.sty
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/uniquecou
+nter/uniquecounter.sty))))
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/base/makeid
+x.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/base/inpute
+nc.sty)
+Writing index file Rd2.idx
+
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/psnfss/t1pt
+m.fd)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/l3backend/l
+3backend-pdftex.def)
+No file Rd2.aux.
+
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/context/base/mkii
+/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/inconsolata
+/t1zi4.fd)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/amsfonts/um
+sa.fd)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/amsfonts/um
+sb.fd)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/jknapltx/ur
+sfs.fd)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/psnfss/t1ph
+v.fd)
+No file Rd2.toc.
+[1{/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/fonts/map/pdftex/up
+dmap/pdftex.map}{/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/fonts
+/enc/dvips/base/8r.enc}{/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dis
+t/fonts/enc/dvips/inconsolata/i4-t1-0.enc}] [2]
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/psnfss/ts1p
+tm.fd)
+Overfull \hbox (24.22552pt too wide) in paragraph at lines 192--192
+ []\T1/zi4/m/n/10 r <- Replacer$new(pattern=".*?_(?P<date>\\d{8}-\\d{6}( \\(1\\
+))*)(?P<ext>\\..+$)") 
+
+Overfull \hbox (11.08575pt too wide) in paragraph at lines 258--261
+[]\T1/ptm/m/n/10 This method re-places the value of the matched group spec-i-fi
+ed by []\T1/zi4/m/n/10 group_name []\T1/ptm/m/n/10 with the []\T1/zi4/m/n/10 re
+placement
+[3]
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/base/t1cmtt
+.fd)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/base/ts1cmt
+t.fd) [4{/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/fonts/enc/dvi
+ps/cm-super/cm-super-ts1.enc}]
+Overfull \hbox (2.90742pt too wide) in paragraph at lines 391--392
+[]\T1/ptm/m/n/10 A mod-i-fied string where the matched value of the spec-i-fied
+ group has been re-placed by the []\T1/zi4/m/n/10 replacer[]\T1/ptm/m/n/10 . 
+No file Rd2.ind.
+[5]
+(/private/var/folders/wf/f1yws4hx18dd2z9mvgy6x7p40000gn/T/RtmpxbL2jz/Rd2pdfe9f2
+40713d91/Rd2.aux)
+
+Package rerunfilecheck Warning: File `Rd2.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information)</opt/homebrew/Cellar/texli
+ve/20240312_1/share/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.
+pfb></opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/fonts/type1/publi
+c/cm-super/sftt0900.pfb></opt/homebrew/Cellar/texlive/20240312_1/share/texmf-di
+st/fonts/type1/urw/helvetic/uhvr8a.pfb></opt/homebrew/Cellar/texlive/20240312_1
+/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></opt/homebrew/Cellar/texliv
+e/20240312_1/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></opt/homebrew/C
+ellar/texlive/20240312_1/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></op
+t/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/fonts/type1/urw/times/utm
+ri8a.pfb>
+Output written on Rd2.pdf (5 pages, 102741 bytes).
+Transcript written on Rd2.log.
+This is makeindex, version 2.17 [TeX Live 2024] (kpathsea + Thai support).
+Scanning input file Rd2.idx....done (4 entries accepted, 0 rejected).
+Sorting entries....done (9 comparisons).
+Generating output file Rd2.ind....done (14 lines written, 0 warnings).
+Output written in Rd2.ind.
+Transcript written in Rd2.ilg.
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(./Rd2.tex
+
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/base/book.c
+ls
+Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
+
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/base/bk10.c
+lo))
+(/Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/share/texmf/tex/l
+atex/Rd.sty
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/base/ifthen
+.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/tools/longt
+able.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/tools/bm.st
+y)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/base/alltt.
+sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/tools/verba
+tim.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/url/url.sty
+)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/base/textco
+mp.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/amsmath/ams
+math.sty
+For additional information on amsmath, use the `?' option.
+
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/amsmath/ams
+text.sty
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/amsmath/ams
+gen.sty))
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/amsmath/ams
+bsy.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/amsmath/ams
+opn.sty))
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/amsfonts/am
+sfonts.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/amsfonts/am
+ssymb.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/jknapltx/ma
+thrsfs.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/iftex/ift
+ex.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/base/fonten
+c.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/psnfss/time
+s.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/inconsolata
+/zi4.sty
+`inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/xkeyval/xke
+yval.sty
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/xkeyval/x
+keyval.tex
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/xkeyval/x
+kvutils.tex
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/xkeyval/k
+eyval.tex)))))
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/graphics/co
+lor.sty
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/graphics-cf
+g/color.cfg)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/graphics-de
+f/pdftex.def)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/graphics/ma
+thcolor.ltx))
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/hyperref/hy
+perref.sty
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/kvsetkeys/k
+vsetkeys.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/kvdefinek
+eys/kvdefinekeys.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/pdfescape
+/pdfescape.sty
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/ltxcmds/l
+txcmds.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/pdftexcmd
+s/pdftexcmds.sty
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/infwarerr
+/infwarerr.sty)))
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/hycolor/hyc
+olor.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/auxhook/aux
+hook.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/hyperref/na
+meref.sty
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/refcount/re
+fcount.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/gettitles
+tring/gettitlestring.sty
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/kvoptions/k
+voptions.sty)))
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/etoolbox/et
+oolbox.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/hyperref/pd
+1enc.def)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/intcalc/i
+ntcalc.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/hyperref/pu
+enc.def)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/bitset/bi
+tset.sty
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/bigintcal
+c/bigintcalc.sty))
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/base/atbegs
+hi-ltx.sty))
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/hyperref/hp
+dftex.def
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/base/atvery
+end-ltx.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/rerunfilech
+eck/rerunfilecheck.sty
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/uniquecou
+nter/uniquecounter.sty))))
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/base/makeid
+x.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/base/inpute
+nc.sty)
+Writing index file Rd2.idx
+
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/psnfss/t1pt
+m.fd)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/l3backend/l
+3backend-pdftex.def)
+(/private/var/folders/wf/f1yws4hx18dd2z9mvgy6x7p40000gn/T/RtmpxbL2jz/Rd2pdfe9f2
+40713d91/Rd2.aux)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/context/base/mkii
+/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(/private/var/folders/wf/f1yws4hx18dd2z9mvgy6x7p40000gn/T/RtmpxbL2jz/Rd2pdfe9f2
+40713d91/Rd2.out)
+(/private/var/folders/wf/f1yws4hx18dd2z9mvgy6x7p40000gn/T/RtmpxbL2jz/Rd2pdfe9f2
+40713d91/Rd2.out)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/inconsolata
+/t1zi4.fd)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/amsfonts/um
+sa.fd)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/amsfonts/um
+sb.fd)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/jknapltx/ur
+sfs.fd)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/psnfss/t1ph
+v.fd)
+(/private/var/folders/wf/f1yws4hx18dd2z9mvgy6x7p40000gn/T/RtmpxbL2jz/Rd2pdfe9f2
+40713d91/Rd2.toc) [1{/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/f
+onts/map/pdftex/updmap/pdftex.map}{/opt/homebrew/Cellar/texlive/20240312_1/shar
+e/texmf-dist/fonts/enc/dvips/base/8r.enc}{/opt/homebrew/Cellar/texlive/20240312
+_1/share/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}] [2]
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/psnfss/ts1p
+tm.fd)
+Overfull \hbox (24.22552pt too wide) in paragraph at lines 192--192
+ []\T1/zi4/m/n/10 r <- Replacer$new(pattern=".*?_(?P<date>\\d{8}-\\d{6}( \\(1\\
+))*)(?P<ext>\\..+$)") 
+[3]
+Overfull \hbox (11.08575pt too wide) in paragraph at lines 258--261
+[]\T1/ptm/m/n/10 This method re-places the value of the matched group spec-i-fi
+ed by []\T1/zi4/m/n/10 group_name []\T1/ptm/m/n/10 with the []\T1/zi4/m/n/10 re
+placement
+
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/base/t1cmtt
+.fd)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/base/ts1cmt
+t.fd) [4]
+Overfull \hbox (2.90742pt too wide) in paragraph at lines 391--392
+[]\T1/ptm/m/n/10 A mod-i-fied string where the matched value of the spec-i-fied
+ group has been re-placed by the []\T1/zi4/m/n/10 replacer[]\T1/ptm/m/n/10 . 
+
+(/private/var/folders/wf/f1yws4hx18dd2z9mvgy6x7p40000gn/T/RtmpxbL2jz/Rd2pdfe9f2
+40713d91/Rd2.ind [5{/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/fo
+nts/enc/dvips/cm-super/cm-super-ts1.enc}] [6])
+(/private/var/folders/wf/f1yws4hx18dd2z9mvgy6x7p40000gn/T/RtmpxbL2jz/Rd2pdfe9f2
+40713d91/Rd2.aux)
+
+Package rerunfilecheck Warning: File `Rd2.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information)</opt/homebrew/Cellar/texli
+ve/20240312_1/share/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.
+pfb></opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/fonts/type1/publi
+c/cm-super/sftt0900.pfb></opt/homebrew/Cellar/texlive/20240312_1/share/texmf-di
+st/fonts/type1/urw/helvetic/uhvr8a.pfb></opt/homebrew/Cellar/texlive/20240312_1
+/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></opt/homebrew/Cellar/texliv
+e/20240312_1/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></opt/homebrew/C
+ellar/texlive/20240312_1/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></op
+t/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/fonts/type1/urw/times/utm
+ri8a.pfb>
+Output written on Rd2.pdf (6 pages, 104189 bytes).
+Transcript written on Rd2.log.
+This is makeindex, version 2.17 [TeX Live 2024] (kpathsea + Thai support).
+Scanning input file Rd2.idx....done (4 entries accepted, 0 rejected).
+Sorting entries....done (9 comparisons).
+Generating output file Rd2.ind....done (14 lines written, 0 warnings).
+Output written in Rd2.ind.
+Transcript written in Rd2.ilg.
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(./Rd2.tex
+
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/base/book.c
+ls
+Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
+
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/base/bk10.c
+lo))
+(/Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/share/texmf/tex/l
+atex/Rd.sty
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/base/ifthen
+.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/tools/longt
+able.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/tools/bm.st
+y)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/base/alltt.
+sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/tools/verba
+tim.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/url/url.sty
+)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/base/textco
+mp.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/amsmath/ams
+math.sty
+For additional information on amsmath, use the `?' option.
+
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/amsmath/ams
+text.sty
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/amsmath/ams
+gen.sty))
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/amsmath/ams
+bsy.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/amsmath/ams
+opn.sty))
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/amsfonts/am
+sfonts.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/amsfonts/am
+ssymb.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/jknapltx/ma
+thrsfs.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/iftex/ift
+ex.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/base/fonten
+c.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/psnfss/time
+s.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/inconsolata
+/zi4.sty
+`inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/xkeyval/xke
+yval.sty
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/xkeyval/x
+keyval.tex
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/xkeyval/x
+kvutils.tex
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/xkeyval/k
+eyval.tex)))))
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/graphics/co
+lor.sty
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/graphics-cf
+g/color.cfg)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/graphics-de
+f/pdftex.def)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/graphics/ma
+thcolor.ltx))
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/hyperref/hy
+perref.sty
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/kvsetkeys/k
+vsetkeys.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/kvdefinek
+eys/kvdefinekeys.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/pdfescape
+/pdfescape.sty
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/ltxcmds/l
+txcmds.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/pdftexcmd
+s/pdftexcmds.sty
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/infwarerr
+/infwarerr.sty)))
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/hycolor/hyc
+olor.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/auxhook/aux
+hook.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/hyperref/na
+meref.sty
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/refcount/re
+fcount.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/gettitles
+tring/gettitlestring.sty
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/kvoptions/k
+voptions.sty)))
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/etoolbox/et
+oolbox.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/hyperref/pd
+1enc.def)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/intcalc/i
+ntcalc.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/hyperref/pu
+enc.def)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/bitset/bi
+tset.sty
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/bigintcal
+c/bigintcalc.sty))
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/base/atbegs
+hi-ltx.sty))
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/hyperref/hp
+dftex.def
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/base/atvery
+end-ltx.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/rerunfilech
+eck/rerunfilecheck.sty
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/generic/uniquecou
+nter/uniquecounter.sty))))
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/base/makeid
+x.sty)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/base/inpute
+nc.sty)
+Writing index file Rd2.idx
+
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/psnfss/t1pt
+m.fd)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/l3backend/l
+3backend-pdftex.def)
+(/private/var/folders/wf/f1yws4hx18dd2z9mvgy6x7p40000gn/T/RtmpxbL2jz/Rd2pdfe9f2
+40713d91/Rd2.aux)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/context/base/mkii
+/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(/private/var/folders/wf/f1yws4hx18dd2z9mvgy6x7p40000gn/T/RtmpxbL2jz/Rd2pdfe9f2
+40713d91/Rd2.out)
+(/private/var/folders/wf/f1yws4hx18dd2z9mvgy6x7p40000gn/T/RtmpxbL2jz/Rd2pdfe9f2
+40713d91/Rd2.out)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/inconsolata
+/t1zi4.fd)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/amsfonts/um
+sa.fd)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/amsfonts/um
+sb.fd)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/jknapltx/ur
+sfs.fd)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/psnfss/t1ph
+v.fd)
+(/private/var/folders/wf/f1yws4hx18dd2z9mvgy6x7p40000gn/T/RtmpxbL2jz/Rd2pdfe9f2
+40713d91/Rd2.toc) [1{/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/f
+onts/map/pdftex/updmap/pdftex.map}{/opt/homebrew/Cellar/texlive/20240312_1/shar
+e/texmf-dist/fonts/enc/dvips/base/8r.enc}{/opt/homebrew/Cellar/texlive/20240312
+_1/share/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}] [2]
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/psnfss/ts1p
+tm.fd)
+Overfull \hbox (24.22552pt too wide) in paragraph at lines 192--192
+ []\T1/zi4/m/n/10 r <- Replacer$new(pattern=".*?_(?P<date>\\d{8}-\\d{6}( \\(1\\
+))*)(?P<ext>\\..+$)") 
+[3]
+Overfull \hbox (11.08575pt too wide) in paragraph at lines 258--261
+[]\T1/ptm/m/n/10 This method re-places the value of the matched group spec-i-fi
+ed by []\T1/zi4/m/n/10 group_name []\T1/ptm/m/n/10 with the []\T1/zi4/m/n/10 re
+placement
+
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/base/t1cmtt
+.fd)
+(/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/base/ts1cmt
+t.fd) [4]
+Overfull \hbox (2.90742pt too wide) in paragraph at lines 391--392
+[]\T1/ptm/m/n/10 A mod-i-fied string where the matched value of the spec-i-fied
+ group has been re-placed by the []\T1/zi4/m/n/10 replacer[]\T1/ptm/m/n/10 . 
+
+(/private/var/folders/wf/f1yws4hx18dd2z9mvgy6x7p40000gn/T/RtmpxbL2jz/Rd2pdfe9f2
+40713d91/Rd2.ind [5{/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/fo
+nts/enc/dvips/cm-super/cm-super-ts1.enc}] [6])
+(/private/var/folders/wf/f1yws4hx18dd2z9mvgy6x7p40000gn/T/RtmpxbL2jz/Rd2pdfe9f2
+40713d91/Rd2.aux) )
+(see the transcript file for additional information)</opt/homebrew/Cellar/texli
+ve/20240312_1/share/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.
+pfb></opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/fonts/type1/publi
+c/cm-super/sftt0900.pfb></opt/homebrew/Cellar/texlive/20240312_1/share/texmf-di
+st/fonts/type1/urw/helvetic/uhvr8a.pfb></opt/homebrew/Cellar/texlive/20240312_1
+/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></opt/homebrew/Cellar/texliv
+e/20240312_1/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></opt/homebrew/C
+ellar/texlive/20240312_1/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></op
+t/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/fonts/type1/urw/times/utm
+ri8a.pfb>
+Output written on Rd2.pdf (6 pages, 104558 bytes).
+Transcript written on Rd2.log.
+Saving output to ‘regreplaceR-manual.pdf’ ...
+Done
+You may want to clean up by 'rm -Rf /var/folders/wf/f1yws4hx18dd2z9mvgy6x7p40000gn/T//RtmpxbL2jz/Rd2pdfe9f240713d91'

@@ -1,19 +1,3 @@
----
-title: "regreplaceR"
-output: rmarkdown::html_vignette
-vignette: >
-  %\VignetteIndexEntry{regreplaceR}
-  %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteEncoding{UTF-8}
----
-
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>"
-)
-```
-
 # regregplaceR
 
 This R package provides 4 tiny regex tools to extract, match, and replace named regex groups in strings. 
@@ -24,9 +8,17 @@ which is thought as the main interface of this package.
 
 You can install this package by installing it from CRAN or from this github repository.
 
-```{r}
+```r
 # install directly from CRAN
 install.packages("regreplaceR")
+
+# or install directly from this github repository
+
+# install the devtools package if not already installed
+install.packages("devtools")
+
+# install the package directly from this repository
+devtools::install_github("gwangjinkim/regreplaceR")
 ```
 
 ## Overview
@@ -48,9 +40,7 @@ By using an R6 class, I was free to choose the arguments for `match()` and `repl
 
 This function extracts all named groups from a string based on a provided regex pattern.
 
-```{r}
-library(regreplaceR)
-
+```r
 pattern <- "(?P<name>\\w+) is (?P<age>\\d+)"
 s <- "Jane is 25"
 result <- groups(pattern, s)
@@ -67,9 +57,7 @@ result <- groups(pattern, s)
 
 Extract the value of a specific named group from the string.
 
-```{r}
-library(regreplaceR)
-
+```r
 pattern <- "(?P<name>\\w+) is (?P<age>\\d+)"
 s <- "Jane is 25"
 name <- match_group(pattern, s, "name")
@@ -82,9 +70,7 @@ name <- match_group(pattern, s, "name")
 
 Replace the value of a specific named group with a new string.
 
-```{r}
-library(regreplaceR)
-
+```r
 pattern <- "(?P<name>\\w+) is (?P<age>\\d+)"
 s <- "Jane is 25"
 modified <- replace_group(pattern, s, "name", "John")
@@ -95,14 +81,14 @@ modified <- replace_group(pattern, s, "name", "John")
 
 ## 4. The Replacer Class
 
-The Replacer class in the regreplace package provides utilities for
-regex operations, such as matching and replacing named groups.
+The Replacer class provides an object-oriented approach to 
+regex-based operations. It allows you to create an instance 
+with a specific regex pattern and then use it to match or replace 
+named groups in strings.
 
 ### Example Usage
 
-```{r}
-library(regreplaceR)
-
+```r
 # Create a new Replacer object
 r <- Replacer$new(pattern = ".*?_(?P<date>\\d{8}-\\d{6})(?P<ext>\\..+$)")
 
@@ -111,24 +97,6 @@ date <- r$match("file_20230905-123456.txt", "date")
 
 # Replace the value of a matched group
 modified_string <- r$replace("file_20230905-123456.txt", "date", "20240905-123456")
-
-## simpler example:
-
-# Create a Replacer object with a regex pattern
-r <- Replacer$new(pattern="(?P<name>\\w+) is (?P<age>\\d+)")
-   
-# Match the "name" group in the string
-name_match <- r$match("Jane is 25", "name")
-print(name_match)  # Should print "Jane"
-
-# Match the "age" group in the string
-age_match <- r$match("Jane is 25", "age")
-print(age_match)  # Should print "25"
-
-# Replace the "name" group in the string
-replaced_string <- r$replace("Jane is 25", "name", "John")
-print(replaced_string)  # Should print "John is 25"
-
 ```
 
 ## Class Methods
@@ -142,5 +110,3 @@ This package is licensed under the MIT License. See LICENSE for details.
 
 Happy regexing! If you have any questions or find any bugs, please feel 
 free to open an issue on the GitHub repository.
-
-
