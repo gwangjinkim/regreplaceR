@@ -1,17 +1,21 @@
 ---
-title: "Introduction to the Replacer Class"
+title: "regreplace"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{regreplace Package Vignette}
+  %\VignetteIndexEntry{regreplace}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
 ```
+
 # Overview
-The Replacer class in the regreplace package provides utilities for 
+The Replacer class in the regreplace package provides utilities for
 regex operations, such as matching and replacing named groups.
 # Example Usage
 ```{r}

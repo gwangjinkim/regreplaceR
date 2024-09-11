@@ -22,8 +22,8 @@
 #' # [1] "25"
 #'
 #' @export
-groups <- function(pattern, s, ignore.case=F) {
-    result <- regexpr(pattern, s, perl=T, ignore.case=ignore.case)
+groups <- function(pattern, s, ignore.case=FALSE) {
+    result <- regexpr(pattern, s, perl=TRUE, ignore.case=ignore.case)
     names_ <- attr(result, "capture.names")
     starts_ <- attr(result, "capture.start")
     lengths_ <- attr(result, "capture.length")
@@ -52,7 +52,7 @@ groups <- function(pattern, s, ignore.case=F) {
 #' # [1] "Jane"
 #'
 #' @export
-match_group <- function(pattern, s, group_name, ignore.case=F) groups(pattern, s, ignore.case)[[group_name]]
+match_group <- function(pattern, s, group_name, ignore.case=FALSE) groups(pattern, s, ignore.case)[[group_name]]
 
 
 #' Replace a Specific Named Group in a String
@@ -74,8 +74,8 @@ match_group <- function(pattern, s, group_name, ignore.case=F) groups(pattern, s
 #' # [1] "John is 25"
 #'
 #' @export
-replace_group <- function(pattern, s, group_name, replacer, ignore.case=F) {
-    result <- regexpr(pattern, s, perl=T, ignore.case=ignore.case)
+replace_group <- function(pattern, s, group_name, replacer, ignore.case=FALSE) {
+    result <- regexpr(pattern, s, perl=TRUE, ignore.case=ignore.case)
     names_ <- attr(result, "capture.names")
     starts_ <- attr(result, "capture.start")
     lengths_ <- attr(result, "capture.length")
