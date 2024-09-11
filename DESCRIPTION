@@ -1,4 +1,4 @@
-Package: regreplace
+Package: regreplaceR
 Title: Match And Replace Strings Based On  Named Groups in Regular Expressions
 Language: en-US
 Version: 0.1.0
@@ -9,9 +9,10 @@ Authors@R:
            role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-2753-0883"))
 Author: Gwang-Jin Kim [aut, cre] (<https://orcid.org/0000-0002-2753-0883>) 
-Description: A R6 Class Regreplacer takes a regex pattern containing named groups. 
+Description: A R6 Class Replacer takes a regex pattern containing named groups. 
     It helps to easily retrieve the matched portion by the group name.
     And even to replace the matched portiion of the string by the group name.
+URL: https://github.com/gwangjinkim/regreplaceR.git
 Suggests: rmarkdown, knitr
 VignetteBuilder: knitr
 License: MIT + file LICENSE
