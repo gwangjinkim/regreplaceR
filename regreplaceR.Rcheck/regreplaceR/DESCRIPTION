@@ -10,9 +10,9 @@ Authors@R:
            role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-2753-0883"))
 Author: Gwang-Jin Kim [aut, cre] (<https://orcid.org/0000-0002-2753-0883>) 
-Description: A R6 Class Replacer takes a regex pattern containing named groups. 
-    It helps to easily retrieve the matched portion by the group name.
-    And even to replace the matched portiion of the string by the group name.
+Description: An R6 class "Replacer" provided by the package simplifies working with
+    regex patterns containing named groups. It allows easy retrieval of matched portions
+    and targeted replacements by group name, improving both code clarity and maintainability. 
 URL: https://github.com/gwangjinkim/regreplaceR
 Suggests: rmarkdown, knitr
 VignetteBuilder: knitr
@@ -22,6 +22,6 @@ Imports: R6
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 NeedsCompilation: no
-Packaged: 2024-09-11 21:11:10 UTC; josephus
+Packaged: 2024-09-13 05:24:18 UTC; josephus
 Maintainer: Gwang-Jin Kim <gwang.jin.kim.phd@gmail.com>
-Built: R 4.3.3; ; 2024-09-11 21:12:20 UTC; unix
+Built: R 4.3.3; ; 2024-09-13 05:25:29 UTC; unix

@@ -1,4 +1,4 @@
-# regregplaceR
+# regreplaceR
 
 This R package provides 4 tiny regex tools to extract, match, and replace named regex groups in strings. 
 It contains in addition to 3 functions `groups()`, `match_group()` and `replace_group()` a `R6` class `Replacer` 
@@ -6,7 +6,7 @@ which is thought as the main interface of this package.
 
 ## Installation
 
-You can install this package by installing it from CRAN or from this github repository.
+You can install this package by installing it from CRAN or from this GitHub repository.
 
 ```r
 # install directly from CRAN
